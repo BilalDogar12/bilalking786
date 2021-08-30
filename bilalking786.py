@@ -192,8 +192,8 @@ def login():
 		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBilalDogar\033[1;95m♡──────────•◈•──────────♡"
 		print('	   \033[1;94m♡\x1b[1;91m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
 		print('	' )
-		print = raw_input('\033[1;96m[1]\033[1;93m-⋄-\033[1;96mlogin With Access Token ')
-		print= raw_input('\033[1;96m[2]\033[1;93m-⋄-\033[1;96mLogin With User And Pass')
+		jalan = raw_input('\033[1;96m[1]\033[1;93m-⋄-\033[1;96mlogin With Access Token ')
+		jalan= raw_input('\033[1;96m[2]\033[1;93m-⋄-\033[1;96mLogin With User And Pass')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
